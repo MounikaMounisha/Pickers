@@ -1,0 +1,60 @@
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialogue"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:onClick="getalert"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Picker"
+        android:textColor="#F44336"
+        android:background="#8BC34A"
+        android:onClick="getdate"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="print date"
+        android:textSize="30sp"
+        android:id="@+id/tv"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ravindrahistory"
+        android:autoLink="web|phone|email"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Picker"
+        android:textColor="@color/colorPrimary"
+        android:background="#4CAF50"
+        android:onClick="gettime"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="print time"
+        android:id="@+id/tv1"/>
+</LinearLayout>
+</ScrollView>
